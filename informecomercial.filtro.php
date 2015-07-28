@@ -1,6 +1,6 @@
 <?php
 
-    session_start();
+    /*session_start();
     
     require ('../xajax/xajax_core/xajax.inc.php');
     include_once '../lenguajes/'.$_SESSION["archivoidioma"];
@@ -9,7 +9,7 @@
 
     require_once('../clases/informes.class.php');
     
-    $tipoInforme = (isset($_GET["tipoInforme"]) ? $_GET["tipoInforme"] : 'Basico');
+    $tipoInforme = (isset($_GET["tipoInforme"]) ? $_GET["tipoInforme"] : 'Basico');*/
     
     function crearCampo($contenidoDiv)
     {
